@@ -1,0 +1,49 @@
+{
+  "name": "Glogger",
+  "description": "Simple global logger with levels.",
+  "version": "0.0.1-1",
+  "keywords": [
+    "krkn",
+    "passtech",
+    "tools",
+    "logger"
+  ],
+  "homepage": "https://github.com/akarun/glogger",
+  "author": {
+    "name": "Thierry 'Akarun' Lagasse",
+    "email": "thierry@passtech.be",
+    "url": "http://passtech.be"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akarun/glogger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akarun/glogger/issues"
+  },
+  "licenses": [
+    {
+      "type": "WTFPL",
+      "url": "https://github.com/akarun/glogger/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/glogger",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.10",
+    "grunt-contrib-jshint": "~0.6",
+    "grunt-contrib-watch": "~0.5",
+    "grunt": "~0.4",
+    "grunt-bumpup": "~0.5",
+    "matchdep": "~0.3",
+    "grunt-coffeelint": "0.0"
+  },
+  "dependencies": {
+    "cli-color": "~0.2"
+  }
+}
