@@ -6,3 +6,5 @@ node_modules
 
 lib/*.js
 test/*.js
+
+test/glogger_test.js

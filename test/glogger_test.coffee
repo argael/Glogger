@@ -5,7 +5,7 @@ oGlogger = null
 
 # =============================================================================
 
-exports.glogger =
+exports[ 'Default Glogger' ] =
     'setUp': ( done ) ->
         oGlogger = glogger()
         done()
@@ -27,6 +27,7 @@ exports.glogger =
         test.equal oGlogger.getLevel(), oGlogger.INFO, "Default level must be INFO."
         test.done()
 
+exports[ 'Initialized Glogger' ] =
     'test with specified Level': ( test ) ->
         sLevel = "ERROR"
 
