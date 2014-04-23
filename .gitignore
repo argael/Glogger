@@ -3,3 +3,6 @@
 
 node_modules
 *.sublime-workspace
+
+lib/*.js
+test/*.js

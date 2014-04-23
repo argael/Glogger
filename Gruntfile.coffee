@@ -43,6 +43,9 @@ module.exports = ( grunt ) ->
             lib:
                 files:
                     "lib/glogger.js": "lib/glogger.coffee"
+            test:
+                files:
+                    "test/glogger_test.js": "test/glogger_test.coffee"
         jshint:
             options:
                 curly: yes
@@ -60,16 +63,11 @@ module.exports = ( grunt ) ->
                 "-W004": yes
             lib:
                 src: [ "lib/glogger.js" ]
+
         bumpup: "package.json"
-        watch:
-            lib:
-                files: "lib/glogger.coffee"
-                tasks: [
-                    "coffeelint"
-                    "coffee"
-                    "jshint"
-                    "bumpup:prerelease"
-                ]
+
+        nodeunit:
+            all: ['test/*_test.js']
 
     grunt.registerTask "default", [
         "coffeelint"
