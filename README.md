@@ -8,12 +8,12 @@ Simple logger with levels
 Install the module with: `npm install glogger`
 
 ```javascript
-var Glogger = require('Konsole')({
-    level: "error"
-    context: "AwsomeModule"
+var glogger = require('glogger')({
+    level: "error",
+    context: "AwesomeModule"
 });
 
-Glogger.info("Information log");
+glogger.info("Information log");
 ```
 
 ## Documentation
