@@ -27,7 +27,7 @@
       "url": "https://github.com/akarun/glogger/blob/master/LICENSE"
     }
   ],
-  "main": "lib/glogger",
+  "main": "lib/glogger.js",
   "engines": {
     "node": ">= 0.10.0"
   },
