@@ -23,4 +23,7 @@ _(Coming soon)_
 _(Coming soon)_
 
 ## License
-Licensed under the WTFPL license.
+
+Glogger is free and unencumbered public domain software.
+For more information, see <http://unlicense.org/> or the accompanying LICENSE file.
+
