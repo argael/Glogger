@@ -1,5 +1,5 @@
 {
-  "name": "Glogger",
+  "name": "glogger",
   "description": "Simple global logger with levels.",
   "version": "0.0.1-18",
   "keywords": [
@@ -23,7 +23,7 @@
   },
   "licenses": [
     {
-      "type": "WTFPL",
+      "type": "UNLICENSE",
       "url": "https://github.com/akarun/glogger/blob/master/LICENSE"
     }
   ],
